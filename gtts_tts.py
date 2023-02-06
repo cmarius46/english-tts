@@ -1,3 +1,7 @@
+
+# pretty good, but defaults to female voice and cannot be changed
+
+
 from gtts import gTTS
 
 
@@ -20,6 +24,7 @@ tts_en.save('title2.mp3')
 
 # with open('title.mp3', 'wb') as f:
 #     tts_en.write_to_fp(f)
+#	  tts_fr.write_to_fp(f)
 
 
 print('done')
